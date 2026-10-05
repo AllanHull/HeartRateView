@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C5FEFCF430732E960039B9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FEFCDE30732E940039B9F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FEFCE530732E940039B9F9;
+			remoteInfo = HeartRateView;
+		};
+		C5FEFCFE30732E960039B9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FEFCDE30732E940039B9F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FEFCE530732E940039B9F9;
+			remoteInfo = HeartRateView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5FEFCE630732E940039B9F9 /* HeartRateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FEFCF330732E960039B9F9 /* HeartRateViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FEFCFD30732E960039B9F9 /* HeartRateViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C5FEFCE830732E940039B9F9 /* HeartRateView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HeartRateView;
+			sourceTree = "<group>";
+		};
+		C5FEFCF630732E960039B9F9 /* HeartRateViewTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HeartRateViewTests;
+			sourceTree = "<group>";
+		};
+		C5FEFD0030732E960039B9F9 /* HeartRateViewUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HeartRateViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5FEFCE330732E940039B9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		C5FEFCF030732E960039B9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		C5FEFCFA30732E960039B9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5FEFCDD30732E940039B9F9 = {
+			isa = PBXGroup;
+			children = (
+				C5FEFCE830732E940039B9F9 /* HeartRateView */,
+				C5FEFCF630732E960039B9F9 /* HeartRateViewTests */,
+				C5FEFD0030732E960039B9F9 /* HeartRateViewUITests */,
+				C5FEFCE730732E940039B9F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5FEFCE730732E940039B9F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FEFCE630732E940039B9F9 /* HeartRateView.app */,
+				C5FEFCF330732E960039B9F9 /* HeartRateViewTests.xctest */,
+				C5FEFCFD30732E960039B9F9 /* HeartRateViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5FEFCE530732E940039B9F9 /* HeartRateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FEFD0530732E960039B9F9 /* Build configuration list for PBXNativeTarget "HeartRateView" */;
+			buildPhases = (
+				C5FEFCE230732E940039B9F9 /* Sources */,
+				C5FEFCE330732E940039B9F9 /* Frameworks */,
+				C5FEFCE430732E940039B9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				C5FEFCE830732E940039B9F9 /* HeartRateView */,
+			);
+			name = HeartRateView;
+			productName = HeartRateView;
+			productReference = C5FEFCE630732E940039B9F9 /* HeartRateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5FEFCF230732E960039B9F9 /* HeartRateViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FEFD0830732E960039B9F9 /* Build configuration list for PBXNativeTarget "HeartRateViewTests" */;
+			buildPhases = (
+				C5FEFCEF30732E960039B9F9 /* Sources */,
+				C5FEFCF030732E960039B9F9 /* Frameworks */,
+				C5FEFCF130732E960039B9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FEFCF530732E960039B9F9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C5FEFCF630732E960039B9F9 /* HeartRateViewTests */,
+			);
+			name = HeartRateViewTests;
+			productName = HeartRateViewTests;
+			productReference = C5FEFCF330732E960039B9F9 /* HeartRateViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5FEFCFC30732E960039B9F9 /* HeartRateViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5FEFD0B30732E960039B9F9 /* Build configuration list for PBXNativeTarget "HeartRateViewUITests" */;
+			buildPhases = (
+				C5FEFCF930732E960039B9F9 /* Sources */,
+				C5FEFCFA30732E960039B9F9 /* Frameworks */,
+				C5FEFCFB30732E960039B9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5FEFCFF30732E960039B9F9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C5FEFD0030732E960039B9F9 /* HeartRateViewUITests */,
+			);
+			name = HeartRateViewUITests;
+			productName = HeartRateViewUITests;
+			productReference = C5FEFCFD30732E960039B9F9 /* HeartRateViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FEFCDE30732E940039B9F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					C5FEFCE530732E940039B9F9 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					C5FEFCF230732E960039B9F9 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = C5FEFCE530732E940039B9F9;
+					};
+					C5FEFCFC30732E960039B9F9 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = C5FEFCE530732E940039B9F9;
+					};
+				};
+			};
+			buildConfigurationList = C5FEFCE130732E940039B9F9 /* Build configuration list for PBXProject "HeartRateView" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5FEFCDD30732E940039B9F9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C5FEFCE730732E940039B9F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5FEFCE530732E940039B9F9 /* HeartRateView */,
+				C5FEFCF230732E960039B9F9 /* HeartRateViewTests */,
+				C5FEFCFC30732E960039B9F9 /* HeartRateViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5FEFCE430732E940039B9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		C5FEFCF130732E960039B9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		C5FEFCFB30732E960039B9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5FEFCE230732E940039B9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		C5FEFCEF30732E960039B9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		C5FEFCF930732E960039B9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5FEFCF530732E960039B9F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FEFCE530732E940039B9F9 /* HeartRateView */;
+			targetProxy = C5FEFCF430732E960039B9F9 /* PBXContainerItemProxy */;
+		};
+		C5FEFCFF30732E960039B9F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5FEFCE530732E940039B9F9 /* HeartRateView */;
+			targetProxy = C5FEFCFE30732E960039B9F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5FEFD0330732E960039B9F9 /* Debug configuration for PBXProject "HeartRateView" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A3R6PYDYTC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5FEFD0430732E960039B9F9 /* Release configuration for PBXProject "HeartRateView" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A3R6PYDYTC;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5FEFD0630732E960039B9F9 /* Debug configuration for PBXNativeTarget "HeartRateView" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3R6PYDYTC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crom.HeartRateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5FEFD0730732E960039B9F9 /* Release configuration for PBXNativeTarget "HeartRateView" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3R6PYDYTC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crom.HeartRateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5FEFD0930732E960039B9F9 /* Debug configuration for PBXNativeTarget "HeartRateViewTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3R6PYDYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crom.HeartRateViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartRateView";
+			};
+			name = Debug;
+		};
+		C5FEFD0A30732E960039B9F9 /* Release configuration for PBXNativeTarget "HeartRateViewTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3R6PYDYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crom.HeartRateViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeartRateView";
+			};
+			name = Release;
+		};
+		C5FEFD0C30732E960039B9F9 /* Debug configuration for PBXNativeTarget "HeartRateViewUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3R6PYDYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crom.HeartRateViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartRateView;
+			};
+			name = Debug;
+		};
+		C5FEFD0D30732E960039B9F9 /* Release configuration for PBXNativeTarget "HeartRateViewUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3R6PYDYTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crom.HeartRateViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeartRateView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5FEFCE130732E940039B9F9 /* Build configuration list for PBXProject "HeartRateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FEFD0330732E960039B9F9 /* Debug configuration for PBXProject "HeartRateView" */,
+				C5FEFD0430732E960039B9F9 /* Release configuration for PBXProject "HeartRateView" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		C5FEFD0530732E960039B9F9 /* Build configuration list for PBXNativeTarget "HeartRateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FEFD0630732E960039B9F9 /* Debug configuration for PBXNativeTarget "HeartRateView" */,
+				C5FEFD0730732E960039B9F9 /* Release configuration for PBXNativeTarget "HeartRateView" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		C5FEFD0830732E960039B9F9 /* Build configuration list for PBXNativeTarget "HeartRateViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FEFD0930732E960039B9F9 /* Debug configuration for PBXNativeTarget "HeartRateViewTests" */,
+				C5FEFD0A30732E960039B9F9 /* Release configuration for PBXNativeTarget "HeartRateViewTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		C5FEFD0B30732E960039B9F9 /* Build configuration list for PBXNativeTarget "HeartRateViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5FEFD0C30732E960039B9F9 /* Debug configuration for PBXNativeTarget "HeartRateViewUITests" */,
+				C5FEFD0D30732E960039B9F9 /* Release configuration for PBXNativeTarget "HeartRateViewUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5FEFCDE30732E940039B9F9 /* Project object */;
+	validationLevel = 1;
+}
